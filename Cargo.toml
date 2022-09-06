@@ -1,0 +1,11 @@
+[package]
+name = "rtl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rtl_proc = { path = "rtl_proc" }
+rtl_dsl  = { path = "rtl_dsl" }
+
+[workspace]
+members = [".", "rtl_dsl", "rtl_proc"]
